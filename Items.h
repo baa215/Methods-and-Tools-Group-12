@@ -8,9 +8,9 @@ using namespace std;
 class Items {
 private:
 
-	string ItemName;
-	float ItemPrice;
-	int ItemQuantity;
+	string itemName;
+	float itemPrice;
+	int itemQuantity;
 
 public:
 
@@ -18,12 +18,12 @@ public:
 
 	Items(string iName, float iPrice, int iQuantity);
 
-	void Name(string iName);
-	string entername();
-	void CalcPrice(float iPrice);
-	float enterprice();
-	void CalcQuant(int iQuantity);
-	int enterquant();
+	void ItemNames(string iName);
+	string get_item_name();
+	void ItemPrices(float iPrice);
+	float get_item_price();
+	void ItemQuantities(int iQuantity);
+	int get_item_quantity();
 
 };
 #endif
