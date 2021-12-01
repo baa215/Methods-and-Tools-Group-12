@@ -1,0 +1,3 @@
+﻿  Main.cpp
+C:\Users\arnol\OneDrive\Desktop\E-Store\E-Store\Shoppingcart.h(108): warning C4715: 'addItems': not all control paths return a value
+  E-Store_Group_12.vcxproj -> C:\Users\arnol\source\repos\E-Store_Group_12\x64\Debug\E-Store_Group_12.exe
